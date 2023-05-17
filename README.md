@@ -1,8 +1,9 @@
 # camunda-testing-example
 
-PROBLEM (in **main** branch):
-1. A principal process with 2 call to subprocess.
-2. A test that mock the first call, and execute the second one.  
+TESTING PROBLEM (in **main** branch):
+1. A principal process (CamundaExample2.bpmn) that calls 2 subprocesses.
+2. Call Activity1 is mocked
+3. Call Activity2 is deployed and executed as part of the test   
 
 ![Camunda principal process](model-principal.png)
 
