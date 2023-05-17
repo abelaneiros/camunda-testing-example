@@ -3,8 +3,10 @@
 TESTING PROBLEM (in **main** branch):
 1. A principal process (CamundaExample2.bpmn) that calls 2 subprocesses.
 2. Call Activity1 is mocked
-3. Call Activity2 is deployed and executed as part of the test   
+3. Call Activity2 calls CamundaSubProcess2.bpmn. This process is deployed and executed as part of the test   
 
-![Camunda principal process](model-principal.png)
+CamundaExample2.bpmn:
+![CamundaExample2.bpmn](model-principal.png)
 
-![Camunda second sub-process](model-subprocess2.png)
+CamundaSubProcess2.bpmn
+![CamundaSubProcess2.bpmn](model-subprocess2.png)
